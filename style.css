@@ -1,0 +1,86 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#5f6caf,#7f53ac);
+}
+
+/* BIG CARD */
+.card{
+width:520px;
+padding:45px;
+border-radius:22px;
+background:white;
+box-shadow:0 25px 70px rgba(0,0,0,0.15);
+text-align:center;
+}
+
+/* TITLE */
+h1{
+margin-bottom:25px;
+font-size:38px;
+color:#2c3e50;
+}
+
+/* SEARCH AREA */
+.searchBox{
+display:flex;
+gap:12px;
+margin-bottom:30px;
+}
+
+.searchBox input{
+flex:1;
+padding:16px;
+border-radius:12px;
+border:1px solid #ccc;
+font-size:17px;
+}
+
+.searchBox button{
+padding:16px 24px;
+border:none;
+background:#5f6caf;
+color:white;
+border-radius:12px;
+font-size:16px;
+cursor:pointer;
+font-weight:600;
+}
+
+.searchBox button:hover{
+background:#4956a3;
+}
+
+/* WEATHER INFO BIG */
+.weatherBox{
+margin-top:20px;
+font-size:20px;
+}
+
+.weatherBox h2{
+font-size:32px;
+margin-bottom:10px;
+color:#333;
+}
+
+.temp{
+font-size:50px;
+font-weight:bold;
+color:#5f6caf;
+margin:15px 0;
+}
+
+.info{
+margin-top:10px;
+color:#555;
+font-size:18px;
+}
